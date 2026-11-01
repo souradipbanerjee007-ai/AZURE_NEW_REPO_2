@@ -9,9 +9,9 @@ terraform {
   }
 /*
   backend "azurerm" {
-    resource_group_name  = "rg-tfstate"
-    storage_account_name = "tfstatefiledmo"
-    container_name       = "tfstate"
+    resource_group_name  = "rg-ts"
+    storage_account_name = "storageaccount19991"
+    container_name       = "container1999991"
     key                  = "terraform.tfstate"
     use_oidc             = true
   }
