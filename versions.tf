@@ -7,7 +7,7 @@ terraform {
       version = "~> 3.0"
     }
   }
-/*
+
   backend "azurerm" {
     resource_group_name  = "rg-ts"
     storage_account_name = "storageaccount19991"
@@ -15,7 +15,7 @@ terraform {
     key                  = "terraform.tfstate"
     use_oidc             = true
   }
-} */
+}
 
 provider "azurerm" {
   features {}
