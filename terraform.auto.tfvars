@@ -24,7 +24,7 @@ nic_ip_config_name = "ipconfig-primary"
 
 # Linux VM Configuration
 vm_name         = "vm-ubuntu-prod-01"
-vm_size         = "Standard_B2s"
+vm_size         = "Standard_B2s_v2"
 admin_username  = "azureuser"
 admin_password  = "Demopass@2026"
 
