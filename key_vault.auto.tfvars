@@ -1,4 +1,4 @@
-resource_group_name = "rg-workload-prod-01"
+resource_group_name = "rg-workload-prod-005"
 location            = "eastus"
 tags = {
   Environment = "Production"
